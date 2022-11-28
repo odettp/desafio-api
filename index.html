@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Desafio-Conversor</title>
+  </head>
+  <body>
+    <h1>Conversor de monedas nacional</h1>
+    <form id="formulario">
+      <h3>Pesos CLP</h3>
+      <input placeholder="Ingrese el monto en CLP" id="montoIngresado" />
+      <p>Moneda a convertir:</p>
+      <select id="monedaSeleccionada">
+        <option value="dolar">Dolar</option>
+        <option value="euro">Euro</option>
+      </select>
+      <button>Buscar</button>
+    </form>
+    <p>
+      Resultado:
+      <span id="resultado"></span>
+    </p>
+    <div id="grafico">
+      <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

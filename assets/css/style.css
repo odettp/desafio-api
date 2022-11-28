@@ -1,0 +1,28 @@
+body {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#formulario {
+  background-color: #c1c1c1;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#formulario input,
+#formulario select,
+#formulario button {
+  border-radius: 4px;
+  height: 24px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#grafico {
+  width: 800px;
+}
